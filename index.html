@@ -8,10 +8,85 @@
   <link rel="stylesheet" href="./css/output.css">
   <script src="https://kit.fontawesome.com/851cf748e1.js" crossorigin="anonymous"></script>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
 </head>
 
-<body class="bg-indigo-500">
-  <h1 class="text-center text-9xl">Hello world!</h1>
+<body class="font-libre text-dark">
+  <header class="border-t-4 border-b-4 border-t-accentbrown border-b-dark h-32 bg-accentdarkblue grid grid-cols-3 px-8">
+    <div class="self-center col-span-full mylg:col-span-1 justify-self-center">
+      <button class="h-[70px] justify-self-center">
+        <img class="h-full" src="./assets/logo.png" alt="">
+      </button>
+    </div>
+    <div class="hidden mylg:block col-span-2 my-3">
+      <div class="text-white justify-end flex tracking-wide">
+        <button class="px-6 py-1 font-bold">About</button>
+        <button class="px-6 py-1 font-bold">Visit</button>
+        <div class="min-h-full border-l border-white/30 mx-2"></div>
+        <button class="px-6 py-1">Give <i
+            class="fa-solid fa-arrow-up-right-from-square indent-1 text-white/75"></i></button>
+        <button class="px-6 py-1">Alumni <i
+            class="fa-solid fa-arrow-up-right-from-square indent-1 text-white/75"></i></button>
+        <button class="px-6 py-1">Athletics <i
+            class="fa-solid fa-arrow-up-right-from-square indent-1 text-white/75"></i></button>
+      </div>
+      <div class="flex w-full bg-white text-txtgray *:flex-grow h-16 *:leading-[100%] relative -bottom-11">
+        <button>Academics</button>
+        <button>Admissions</button>
+        <button>Research</button>
+        <button>Global</button>
+        <button>Faith & Service</button>
+        <button>Campus Life</button>
+        <button class="flex-shrink border-l min-w-14"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+    </div>
+  </header>
+  <nav class="grid mylg:hidden grid-cols-4 py-4">
+    <button class="leading-4 text-xs">
+      <i class="fa-solid fa-house text-base"></i><br>
+      HOME
+    </button>
+    <button class="leading-4 text-xs">
+      <i class="fa-regular fa-envelope text-base"></i><br>
+      CONTACT
+    </button>
+    <button class="leading-4 text-xs">
+      <i class="fa-solid fa-magnifying-glass text-base"></i><br>
+      SEARCH
+    </button>
+    <button class="leading-4 text-xs flex flex-col gap-1.5 items-center">
+      <!-- <i class="fa-solid fa-grip-lines text-3xl block scale-125"></i><br> -->
+      <div class="h-1 w-8 bg-dark inline-block"></div>
+      <div class="h-1 w-8 bg-dark inline-block"></div>
+      MENU
+    </button>
+  </nav>
+
+  <main>
+    <section class="relative py-12 px-8">
+      <div class="absolute w-full h-full top-0 left-0 -z-40 bg-accentdarkblue/70"></div>
+      <img class="absolute min-w-full h-full top-0 left-0 object-cover object-top filter grayscale -z-50"
+        src="https://www.nd.edu/assets/features/wwyff-takeover/images/campus_spring_scenic-1600.webp" alt="">
+
+
+      <img class="mx-auto md:mr-0 w-1/2 md:w-1/4 block" src="https://www.nd.edu/assets/features/wwyff-takeover/images/logo-wwyff-w.svg" alt="">
+
+      <div class="flex flex-col ml-auto items-center md:items-end w-full md:w-96 mt-5">
+        <p class="text-white text-xl myxl:text-2xl myxl:leading-9 text-center md:text-right mt-8">
+          Notre Dame attracts people willing to take action to find solutions to humanity's most pressing challenges.
+          "What would you fight for?" For us, it's not a question. It's a call to action. We are the Fighting Irish.
+        </p>
+        <button class="px-6 py-4 bg-white rounded-xl text-lg mt-12">
+          What would you fight for?
+          <i class="fa-solid fa-arrow-up-right-from-square indent-1 text-accentbrown text-sm"></i>
+        </button>
+      </div>
+    </section>
+  </main>
 </body>
 
 </html>

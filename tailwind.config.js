@@ -3,7 +3,21 @@ module.exports = {
   content: ["./*.html"],
   theme: {
     extend: {
-      
+      colors: {
+        accentdarkblue: "#0C2340",
+        accentbrown: "#AE9142",
+        dark: "#081629",
+        lightestgray: "#EDF2F9",
+        txtgray: "#555555"
+      },
+      screens: {
+        mylg: "960px",
+        myxl: "1200px"
+
+      },
+      fontFamily: {
+        libre: ['"Libre Franklin"', 'serif']
+      }
     },
   },
   plugins: [],
