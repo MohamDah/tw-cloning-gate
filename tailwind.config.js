@@ -17,7 +17,8 @@ module.exports = {
       },
       fontFamily: {
         libre: ['"Libre Franklin"', 'serif'],
-        sumana: ['"Sumana"', 'serif']
+        sumana: ['"Sumana"', 'serif'],
+        cond: ['"Sofia Sans Extra Condensed"', 'serif']
       }
     },
   },
