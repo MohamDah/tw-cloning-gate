@@ -570,6 +570,10 @@ video {
   left: 0px;
 }
 
+.right-0 {
+  right: 0px;
+}
+
 .right-3 {
   right: 0.75rem;
 }
@@ -670,6 +674,10 @@ video {
   margin-top: 7rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
 .mt-36 {
   margin-top: 9rem;
 }
@@ -692,14 +700,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
 }
 
 .block {
@@ -766,6 +766,14 @@ video {
   width: 44%;
 }
 
+.w-\[45\%\] {
+  width: 45%;
+}
+
+.w-\[55\%\] {
+  width: 55%;
+}
+
 .w-\[60\%\] {
   width: 60%;
 }
@@ -817,10 +825,6 @@ video {
 
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-}
-
-.flex-row {
-  flex-direction: row;
 }
 
 .flex-col {
@@ -941,6 +945,11 @@ video {
      object-position: top;
 }
 
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -981,9 +990,18 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .pb-12 {
@@ -1026,12 +1044,12 @@ video {
   padding-top: 0.75rem;
 }
 
-.pb-10 {
-  padding-bottom: 2.5rem;
-}
-
 .text-center {
   text-align: center;
+}
+
+.text-end {
+  text-align: end;
 }
 
 .indent-1 {
@@ -1106,6 +1124,14 @@ video {
   line-height: 1rem;
 }
 
+.leading-relaxed {
+  line-height: 1.625;
+}
+
+.leading-loose {
+  line-height: 2;
+}
+
 .tracking-wide {
   letter-spacing: 0.025em;
 }
@@ -1123,6 +1149,11 @@ video {
 .text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity, 1));
+}
+
+.text-lightestgray {
+  --tw-text-opacity: 1;
+  color: rgb(237 242 249 / var(--tw-text-opacity, 1));
 }
 
 .text-txtgray {
@@ -1245,10 +1276,6 @@ video {
     flex-direction: row;
   }
 
-  .md\:flex-col {
-    flex-direction: column;
-  }
-
   .md\:items-end {
     align-items: flex-end;
   }
@@ -1267,18 +1294,6 @@ video {
 
   .md\:pr-10 {
     padding-right: 2.5rem;
-  }
-
-  .md\:pb-5 {
-    padding-bottom: 1.25rem;
-  }
-
-  .md\:pb-8 {
-    padding-bottom: 2rem;
-  }
-
-  .md\:pb-10 {
-    padding-bottom: 2.5rem;
   }
 
   .md\:text-right {
@@ -1311,16 +1326,12 @@ video {
     margin-left: 6rem;
   }
 
-  .mylg\:mt-40 {
-    margin-top: 10rem;
+  .mylg\:ml-6 {
+    margin-left: 1.5rem;
   }
 
   .mylg\:mt-44 {
     margin-top: 11rem;
-  }
-
-  .mylg\:ml-6 {
-    margin-left: 1.5rem;
   }
 
   .mylg\:block {
@@ -1339,6 +1350,10 @@ video {
     width: 5rem;
   }
 
+  .mylg\:w-\[40\.5\%\] {
+    width: 40.5%;
+  }
+
   .mylg\:w-\[42\%\] {
     width: 42%;
   }
@@ -1347,24 +1362,12 @@ video {
     width: auto;
   }
 
-  .mylg\:w-\[40\%\] {
-    width: 40%;
-  }
-
-  .mylg\:w-\[41\%\] {
-    width: 41%;
-  }
-
-  .mylg\:w-\[4\%\] {
-    width: 4%;
-  }
-
-  .mylg\:w-\[40\.5\%\] {
-    width: 40.5%;
-  }
-
   .mylg\:w-full {
     width: 100%;
+  }
+
+  .mylg\:w-\[55\%\] {
+    width: 55%;
   }
 
   .mylg\:grid-cols-3 {
@@ -1375,19 +1378,9 @@ video {
     flex-direction: column;
   }
 
-  .mylg\:gap-x-4 {
-    -moz-column-gap: 1rem;
-         column-gap: 1rem;
-  }
-
   .mylg\:gap-x-8 {
     -moz-column-gap: 2rem;
          column-gap: 2rem;
-  }
-
-  .mylg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
   }
 
   .mylg\:px-12 {
@@ -1409,6 +1402,10 @@ video {
     padding-bottom: 0px;
   }
 
+  .mylg\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
   .mylg\:pl-0 {
     padding-left: 0px;
   }
@@ -1421,8 +1418,9 @@ video {
     padding-top: 2.5rem;
   }
 
-  .mylg\:pb-10 {
-    padding-bottom: 2.5rem;
+  .mylg\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .mylg\:text-xl {
@@ -1430,9 +1428,8 @@ video {
     line-height: 1.75rem;
   }
 
-  .mylg\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+  .mylg\:leading-relaxed {
+    line-height: 1.625;
   }
 }
 
@@ -1478,5 +1475,20 @@ video {
 
   .myxl\:leading-9 {
     line-height: 2.25rem;
+  }
+
+  .myxl\:leading-loose {
+    line-height: 2;
+  }
+}
+
+@media (min-width: 1400px) {
+  .my2xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .my2xl\:leading-relaxed {
+    line-height: 1.625;
   }
 }

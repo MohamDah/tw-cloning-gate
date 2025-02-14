@@ -12,7 +12,8 @@ module.exports = {
       },
       screens: {
         mylg: "960px",
-        myxl: "1200px"
+        myxl: "1200px",
+        my2xl: "1400px"
 
       },
       fontFamily: {
