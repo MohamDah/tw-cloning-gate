@@ -16,7 +16,8 @@ module.exports = {
 
       },
       fontFamily: {
-        libre: ['"Libre Franklin"', 'serif']
+        libre: ['"Libre Franklin"', 'serif'],
+        sumana: ['"Sumana"', 'serif']
       }
     },
   },
